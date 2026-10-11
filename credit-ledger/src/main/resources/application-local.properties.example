@@ -1,0 +1,9 @@
+# Copy this file to application-local.properties (same folder) and put your own values.
+# application-local.properties is ignored by Git, so your password never goes to GitHub.
+
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:FREE
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+
+# Any long text, at least 32 characters
+jwt.secret=PUT_A_LONG_RANDOM_SECRET_TEXT_HERE_32_PLUS_CHARS
